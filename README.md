@@ -13,7 +13,10 @@ Steps to launch :
 8. This application will speak to you and provide interview instructions
 9. Application will ask you questions, capture your responses & finally provide the candidate evaluation.
 
-1. Problem statement & solution approach - https://vijayredkar.medium.com/   
+3. Local Kafka setup
+    - download and install - https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm
+    - Zookeeper start cmd  - <Kafka_install_dir>\bin\windows\zookeeper-server-start.bat <Kafka_install_dir>\config\zookeeper.properties
+    - Kafka-server start cmd - <Kafka_install_dir>\bin\windows\kafka-server-start.bat <Kafka_install_dir>\config\server.properties
 4. Launch microservices
    - git clone in to your 
      - <project_dir> - git clone https://github.com/vijayredkar/event-driven-platform.git
