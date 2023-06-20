@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Gen AI Recommendations</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    </head>
+    <body>
+        <div th:switch="${prompts}" class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 th:case="null">No Recommendations!</h2>
+                    <div th:case="*">
+                        <h2 class="my-5">GPT Recommendations</h2>
+                        <table class="table table-striped table-responsive-md">
+							
+							<thead>
+                                                       
+                                <tr>
+                                    <th>Prompt Sent to GPT</th>
+                                </tr>
+                                <tr th:each="provider : ${prompts}">
+                                    <td th:text="${provider.location}"></td>                                                                    
+                                </tr>
+                                
+                            </thead>	
+                            
+                            <thead>
+                                                       
+                                <tr>
+                                    <th>Response</th>
+                                </tr>
+                                <tr th:each="provider : ${prompts}">
+									
+                                    <td th:id="format" th:text="${provider.name}"></td>
+                                                                                                       
+                                </tr>
+                                
+                            </thead>
+							                            
+                            
+                            <tbody>                                
+                                <tr>
+	                                <td>                                
+		                                <a th:href="@{/openai/v1/recommender-prompt}" class="btn btn-primary"><i class="fas fa-user-edit ml-2">Try More Recommendations ?</i></a>
+		                            </td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>
+                    </div>      
+                </div>
+            </div>
+        </div>
+        
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+ 
+ 
+               <script>
+               
+               $(document).ready(function() {
+var messagetoSend = $('#format').html();
+console.log('messagetoSend'+messagetoSend);
+$('#format').html('<pre>'+messagetoSend+'</pre>');
+});
+
+</script>
+
+    </body>
+</html>

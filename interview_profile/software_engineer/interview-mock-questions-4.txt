@@ -1,0 +1,5 @@
+Question 1: In Java, what is the difference between Linked List and HashMap and when to use which one ?  Candidate's answer is:
+Question 2: In Node JS what is the purpose of the module .Exports?  Candidate's answer is:
+Question 3: In SQL, what is the difference between UNION and UNION ALL?  Candidate's answer is:
+Question 4: In a messaging system like Kafka, what is a partition?  Candidate's answer is:
+Question 5: In SpringBoot, which anotation will you use if you want to perform a task as soon as the application starts up? This execution should occur only once.  Candidate's answer is:

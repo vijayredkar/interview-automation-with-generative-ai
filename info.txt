@@ -1,0 +1,15 @@
+create your Open API key
+add in ti applicatn prop 
+openai.api.key=  CREATE YOUR OWN
+copy GIT speech.properties to C:\Users\user\speech.properties
+
+mvn clean + java -jar -> run_interview.bat
+
+
+https://www.javatpoint.com/convert-text-to-speech-in-java
+Step 6: Navigate the directory C:\freetts-1.2.2-bin\freetts-1.2 and copy the speech.properties file and paste the properties file into the home directory. In our case the directory is C:\Users\Anubhav.
+C:\Users\user\speech.properties
+
+
+
+

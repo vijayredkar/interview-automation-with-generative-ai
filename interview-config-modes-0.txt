@@ -1,0 +1,5 @@
+pretrainEnabled=true
+preInstructionsEnabled=true
+mockInterview=false
+profile=software_engineer
+limitNumQnsToAsk=9000
