@@ -1,6 +1,7 @@
 # interview-automation-with-generative-ai
 Automation to interview &amp; evaluate candidate responses. 
-Application speaks the questions &amp; evaluates candidate's answer by employing Generative Ai.
+Application speaks the question![1-automated-interviewer-evaluater](https://github.com/vijayredkar/interview-automation-with-generative-ai/assets/25388646/21715a66-a8aa-47aa-82f1-69220fbe876a)
+s &amp; evaluates candidate's answer by employing Generative Ai.
 
 Steps to launch :
 1. git clone https://github.com/vijayredkar/interview-automation-with-generative-ai.git on to your c:\
