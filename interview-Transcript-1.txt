@@ -1,80 +1,30 @@
-
+Your Recording 22.wav
 Transcript
-00:00:06
-Hello candidate, thanks for joining my next free screening interview.
-00:00:11
-This discussion is to evaluate the your basic competency level and decide on shortlisting for the next detailed discussion around because you answer only after you have listened to the entire.
-00:00:22
-Question first, once you complete your answer, head Mikey to indicate that you are ready for the next question.
-00:00:28
-Answer as clearly, and then generically as you can.
-00:00:31
-All the best.
-00:00:32
-Question one in Japan, what is the difference?
-00:00:35
-But we linked list and hashmap and when to use which one candidates answer?
-00:01:35
-Question two and notice what is the purpose of the modular export?
-00:01:40
-Screening interview this discussion is to evaluate your basic competency level and decide on shortlisting for the next detailed discussion round.
-00:01:49
-They can you answer only after you have listened to the entire question first.
-00:01:53
-Once you complete your answer, headway key to indicate that you are ready for the next question.
-00:01:58
-Answer as clearly and then.
-00:02:00
-Partly as you can, all the best question one in Java, what is the difference between linkedlist and hash map and when to use which one candidates answer?
-00:02:12
-A linked list represents A sequential ordering of elements.
-00:02:18
-Maps are used to represent collection of key and value pairs.
-00:02:24
-Link list will ensure that elements are not duplicate.
-00:02:29
-Link linked list can store only string type data whereas HASHMAP has no such restriction.
-00:02:48
-Question two, and nobody's what is the purpose of the modular exports candidate sensor?
-00:02:55
-In node JS module encapsulates all related codes into single unit of code that can be passed by moving all relevant functions into a single file.
-00:03:10
-You may export a module with module and export the.
-00:03:16
-Which lets it to be imported into another file with a needed keyword.
-00:03:29
-Question three and SQL.
-00:03:32
-What is the difference between able candidate sensor?
-00:03:37
-Union merges the contents of two tables into a single combined table.
-00:03:43
-The difference between Union and Union all is that Union will omit duplicate records, whereas Union all will include duplicate records.
-00:04:01
-In a messaging system like after, what is a partition candidates answer.
-00:04:08
-Partitions allow parallelism in Kafka, allowing for multiple consumers to read and process messages from the same topic simultaneously.
-00:04:26
-Each partition is ordered and immutable sequence of messages identified by an integer partition number.
-00:04:35
-Topics are simply logical abstraction that group the related.
-00:04:41
-Messages together, whereas partitions are.
-00:04:45
-Physical storage units for those messages.
-00:04:56
-Question 5 in Spring boot, which annotation will be used if you want to perform the task as soon as the application starts up.
-00:05:04
-This execution should appropriately once candidates answer.
-00:05:09
-I think I can use the spring boot application annotation in my main spring boot class.
-00:05:16
-This annotation will tell Spring boot to wire all the components.
-00:05:21
-And execute the tasks as mentioned in those classes.
-00:05:30
-Your interview is now complete.
-00:05:33
-Thank you for your time and patience.
-00:05:35
-You may now sign out from this meeting.
+Speaker 1
+Hello candidate, thanks for joining banknotes submitted 3 screening interview. Your answer only. This discussion is to evaluate your basic competency level and decide on shortlisting for the next discussion around. After you have listen to the entire question first. Once you complete your answer, you are ready for the next question. Question forward in messaging system like after one is a partition. Once you complete your answer enter. On your keyboard.
+Speaker 2
+In Kafka, partitions are logical abstractions of messages. We can have partitions to enable parallelism, so multiple consumers can read the same Kafka topic and process data in parallel. This makes the processing much faster.
+Speaker 1
+Question 2IN Nodejs what is the purpose of the moduli exports once you complete answer enter? On your keyboard.
+Speaker 2
+In node JS module exports help in modular programming. They help to keep our program our code base independent and interchangeable. This is good. Helps in separation of concerns and is a practice.
+Speaker 1
+Question 3IN SQL is the difference, so we give you a new middle bond so you complete rents are entirely on your keyboard.
+Speaker 2
+The difference is that Union operation omits the duplicates, whereas the Union all operation will also include the duplicates in the final results.
+Speaker
+OK.
+Speaker 1
+Question five in Springwood, which annotation will you if you want to perform the task as soon as the application starts up? Besides solution should occur only once. Once you complete rents are entry on your keyboard.
+Speaker 2
+Annotation auto wired.
+Speaker 1
+Question one, the job is the difference between list and passion and when to use it. Once you answer, enter on your keyboard.
+Speaker 2
+Linked list is used for sequential sequential storing of data whereas hash map is like a string.
+Speaker 1
+Likely you will.
+Speaker 2
+It will it will store data in a heap. Linked list is used for. Searching elements in sequential order. There is a hash map. Can be used for storing data.
+Speaker 1
+Or review is now complete. And then from this meeting, thank you for your time. You may now sign. We can now start the second stage and then when you are ready to initiate the candidate evaluation process, please enter. And pick evaluation will start now. Repairing interview transcript for evaluation. Please be patient if you have sinus teams for the interview session that teams can generate this automatically for you after the interview meeting ends. Whichever approach you take is saved into the file interview regenerate. Or you can use the msword dictate functionality to generate this transcript for any third party application like go to the transcript. Back slash preview automation with generated script on the ESP to proceed. New transcript is already placed. Please replace it with your specific transcript when you have it ready for now. If you wish, you can proceed with the regenerated transcript for the candidate evaluation.

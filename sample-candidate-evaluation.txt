@@ -1,0 +1,15 @@
+ Candidate evaluation complete. Here is the feedback : Evaluation:
+
+Question 1: The candidate mentioned some differences between LinkedList and HashMap but missed some key points. The candidate mentioned that Linkedlist stores data sequentially and can be used for searching elements in sequential order. However, he missed the fact that LinkedList is slower than HashMap in search operations. The candidate mentioned that HashMap is used for storing data but missed the fact that HashMap stores data in key-value pairs and can be used to fetch elements by looking up the key. Score: 3/6
+
+Question 2: The candidate provided a correct answer for the purpose of module.exports in Node.js. Score: 6/6
+
+Question 3: The candidate provided a correct answer for the differences between UNION and UNION ALL in SQL. Score: 6/6
+
+Question 4: The candidate did not answer this question at all. Score: 0/6
+
+Question 5: The candidate provided an incorrect answer for the annotation that should be used to perform a task as soon as the application starts up. He mentioned @Autowired instead of the correct annotation, which is @PostConstruct. Score: 3/6
+
+Average score: (3+6+6+0+3)/5 = 18/5 = 3.6
+
+Conclusion: Based on the evaluation, the candidate did not score an average of 85%. He missed some key points and also did not answer one of the questions. Therefore, the candidate is not shortlisted for the next discussion round.
