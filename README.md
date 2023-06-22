@@ -4,7 +4,9 @@ Application speaks the question s &amp; evaluates candidate's answer by employin
 
 Steps to launch :
 1. git clone https://github.com/vijayredkar/interview-automation-with-generative-ai.git on to your c:\
-2. https://medium.com/@vijayredkar/interview-automation-w-generative-ai-78820a8c8afe
+2. 2. https://medium.com/@vijayredkar/interview-automation-w-generative-ai-78820a8c8afe
+   3. 2. https://medium.com/@vijayredkar/interview-automation-w-generative-ai-78820a8c8afe
+
 3. create your Open API key from https://platform.openai.com/
 4. /src/main/resources/application.properties has    openai.api.key=PASTE-YOUR-SPECIFIC-OPEN-API-KEY-HERE.
 5. replace "PASTE-YOUR-SPECIFIC-OPEN-API-KEY-HERE" with your Open API key.
