@@ -3,7 +3,7 @@ Automation to interview &amp; evaluate candidate responses.
 Application speaks the question s &amp; evaluates candidate's answer by employing Generative Ai.
 
 1. Steps to launch :
-2. git clone https://github.com/vijayredkar/interview-automation-with-generative-ai.git on to your c:\
+2. git clone this application on to your c:\
 3. create your Open API key from https://platform.openai.com/
 4. /src/main/resources/application.properties has    openai.api.key=PASTE-YOUR-SPECIFIC-OPEN-API-KEY-HERE
 5. replace "PASTE-YOUR-SPECIFIC-OPEN-API-KEY-HERE" with your Open API key.
